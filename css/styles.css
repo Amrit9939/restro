@@ -23,7 +23,7 @@ a{
   text-align: center;
   padding: 10px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   .nav{
     grid-template-rows: repeat(5,1fr);
     grid-template-columns: 1fr;
@@ -58,7 +58,7 @@ a{
   font-size: 30px;
   text-align: center;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 400px){
   .add{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
@@ -101,7 +101,7 @@ a{
 .product p {
     color: rgba(0,0,0,0.5);
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 400px){
   .products{
     grid-template-rows: repeat(4,1fr);
     grid-template-columns: 1fr;
@@ -126,7 +126,7 @@ a{
 .main-dec{
   margin-top: 15%;
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:400px) {
   .main{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
@@ -155,7 +155,7 @@ a{
   grid-auto-rows: 5px;
   text-align: center;
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:400px){
   .gallery{
     grid-template-rows: repeat(5,1fr);
     grid-template-columns: repeat(2,1fr);
